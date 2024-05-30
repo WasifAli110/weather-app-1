@@ -1,14 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1{
-    text-align: center;
+    position: fixed;
+    top: 40%;
+    right: 40%;
+}
+
+.container{
+    position: fixed;
+    top: 45%;
+    left: 40%;
 }
 
 #myForm{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+    position: fixed;
+    top: 45%;
+    left: 40%;
 }
 
-.class{
-    display: flex;
-    flex-direction: column;
+#input{
+    position: fixed;
+    top: 48%;
+    left: 48%;
 }
+
+.container #cityInput{
+    border-radius: 5px;
+}
+
+.container #getWeatherBtn{
+    border-radius: 5px;
+}
+
