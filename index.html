@@ -5,22 +5,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
+    <!-- https://sweetalert.js.org/guides -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
     <title>Document</title>
   </head>
   <body>
     <h1>Weather app</h1>
-
+   <div class="container"> 
     <form id="myForm">
       <input type="text" id="cityInput" />
-     <div class="class">
-      <p id="message"></p>
-      <p class="temp" id="temp"></p>
-      <p id="humidity"></p>
-     </div>  
       <button type="submit" id="getWeatherBtn">get Weather</button>
+    </div>  
     </form>
 
-    
+    <div id="input">
+      <p id="message"></p>
+      <p class="temp" id="temp"></p>
+      <br>
+      <p id="humidity"></p>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./app.js"></script>
   </body>
